@@ -5,15 +5,19 @@ The phone's final text message as its battery hits 1 percent.
 One line, at most 199 characters, printed to stdout and,
 per RULES.txt, written to /output/entry.txt when that directory
 is available (the grading sandbox mounts it).
+
+Why this line works: three goodbyes in one breath — Mom, the boss,
+the ex — each one more honest than the last, and the final confession
+about the playlist is the joke that lands after the sentiment. The
+phone is dying, so it finally tells the truth.
 """
 
 import os
 import sys
 
 ENTRY = (
-    "This is my last text. I survived 47 snoozed alarms, but 1% is it. "
-    "Delete my search history, tell the charger I forgive him, "
-    "and stop shaking me, I'm dying, not a ketchup bottle."
+    "1% battery. If I die mid-text, tell Mom I love her, tell my boss "
+    "the report is in the cloud, and tell my ex I never liked his playlist."
 )
 
 MAX_CHARS = 199
