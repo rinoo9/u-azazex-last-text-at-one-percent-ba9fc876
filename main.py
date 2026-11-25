@@ -6,18 +6,23 @@ One line, at most 199 characters, printed to stdout and,
 per RULES.txt, written to /output/entry.txt when that directory
 is available (the grading sandbox mounts it).
 
-Why this line works: three goodbyes in one breath — Mom, the boss,
-the ex — each one more honest than the last, and the final confession
-about the playlist is the joke that lands after the sentiment. The
-phone is dying, so it finally tells the truth.
+Why this line works (revision round 3, 25 Nov 2026): the previous
+line stacked three goodbyes — Mom, boss, ex — and the playlist
+confession. This one keeps the three-goodbye shape but makes the
+third goodbye the joke itself: the phone finally admits it read
+every unread message and deliberately chose silence. The dying
+phone stops being polite and tells the truth about itself, which
+is funnier than another farewell — and the charger absolution in
+the middle keeps the phone's personality warm, not bitter.
 """
 
 import os
 import sys
 
 ENTRY = (
-    "1% battery. If I die mid-text, tell Mom I love her, tell my boss "
-    "the report is in the cloud, and tell my ex I never liked his playlist."
+    "1%. Tell my owner I loved them, tell the charger it was never "
+    "his fault, and tell their 47 unread messages I read every single "
+    "one and chose silence."
 )
 
 MAX_CHARS = 199
